@@ -434,7 +434,6 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    cursor: pointer;
     padding: 16px 32px;
     border-radius: 4px;
     border: none;
@@ -442,6 +441,7 @@ img {
     margin: 0 auto;
     min-width: 169px;
     height: 56px;
+
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -471,11 +471,11 @@ img {
         margin-bottom: 36px;
     }
 
-    .bttn:hover {
+    .sec-first-btn:hover {
         background-color: #404BBF;
     }
 
-    .bttn:focus {
+    .sec-first-btn:focus {
         background-color: #404BBF;
     }
 }
@@ -499,6 +499,7 @@ img {
         max-width: 496px;
         margin-bottom: 48px;
     }
+
 }
 
 @media (min-resolution: 192dpi) {
