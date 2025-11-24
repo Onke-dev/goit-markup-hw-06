@@ -742,7 +742,7 @@ img {
     }
 
     .li-item {
-        max-width: 100%;
+        max-width: 264px;
         flex-basis: calc((100% - 24px) / 2);
     
     }
