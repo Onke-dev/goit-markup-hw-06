@@ -1122,6 +1122,7 @@ img {
         flex-direction: row;
         justify-content: flex-start;
         column-gap: 24px;
+        align-items: baseline;
     }
 
     .form-list-li {
@@ -1145,6 +1146,36 @@ img {
     .sub-input {
         min-width: 264px;
     }
+}
+
+
+@media screen and (min-width: 1158px) {
+    .foo_ter {
+        height: 312px;
+        padding: 100px 0;
+    }
+
+    .form-list {
+        margin-left: 0;
+        row-gap: 0;
+        column-gap: 0;
+    }
+
+    .form-list-li {
+        flex-basis: auto;
+    }
+    
+    .form-list-li.second {
+        margin-left: 120px;
+        margin-right: 80px;
+        max-width: 208px;
+    }
+
+    .form-list-li.third {
+        
+        max-width: 453px;
+    }
+    
 }
 
 
